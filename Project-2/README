@@ -1,0 +1,6 @@
+For this project, I built a full DTMF decoder in MATLAB that can identify phone numbers from audio recordings.
+I first wrote an encoder that generates touch-tone signals for each key using two specific frequencies, then
+developed a decoder to detect those frequencies and map them to the correct digits. I expanded the decoder to
+handle full sequences of phone numbers with unknown digit durations and noise. I tested it with clean and noisy
+recordings and analyzed how accuracy drops as background noise increases. This helped me understand frequency
+analysis, noise robustness, and real-world signal processing challenges.
