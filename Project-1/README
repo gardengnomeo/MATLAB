@@ -1,0 +1,7 @@
+For this project, I implemented and tested a basic digital communication system in MATLAB using
+matched filtering. I created a function to decode noisy binary signals into readable ASCII messages
+using pulse shapes and convolution. Then, I built a transmitter function that encoded messages into
+triangular waveforms, added noise, and tested how well the original message could be recovered. I
+experimented with different pulse shapes under increasing noise and compared their decoding accuracy.
+This project helped me understand the role of matched filters and noise robustness in digital signal
+recovery.
